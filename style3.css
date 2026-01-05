@@ -1,0 +1,67 @@
+.container{
+    font-family: Arial,sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+   
+    width: 350px;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    background-color: rgb(224, 214, 215);
+}
+.image{
+    width: 180px;
+    height: 180px;  
+   margin-top: 20px;
+   margin-left: 50px;
+   position: relative;
+}
+.batch{
+  font-size: 16px;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    border-radius: 150px;
+    color: white;
+    position: relative;
+    bottom: 170px;
+    right: 33px;
+   
+}
+.Name{
+    display: block;
+    font-weight: bold;
+    font-size: 21px;
+  margin-top: 8px;
+  position: relative;
+}
+.tagline{
+display: block;
+font-size: 15px;
+color: grey;
+margin-top: 7px;
+position: relative;
+}
+.followbutton{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    position: relative;
+    bottom: 5px;
+}
+.followbutton:hover{
+    background-color: rgb(17, 221, 85);
+    cursor: pointer;
+}
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 0 20px grey;
+}
